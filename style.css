@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* ==================== NAVBAR ================= */
+header {
+    background-color: #192655;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #E3CCAE;
+}
+
+.navbar-nav .nav-link {
+    font-size: 16px;
+    font-weight: normal;
+    color: #E3CCAE;
+}
+
+.navbar-toggler {
+    background-color: #E3CCAE;
+}
+
+/* ==================== HOME ==================== */
+
+#home .container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 100px;
+}
+
+#home h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #E3CCAE;
+}
+
+#home h4 {
+    color: #bdbd4e;
+    font-style: italic;
+}
+
+#home p {
+    font-size: 17px;
+    color: #C69749;
+}
+
+
+#home .btn-outline-light {
+    font-size: 17px;
+    border-radius: 30px;
+}
+
+
+#home .btn-warning {
+    font-size: 17px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 30px;
+}
+
+#home img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+#home .social-icons {
+    text-align: left;
+}
+
+#home .social-icon {
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 15px;
+    font-weight: bolder;
+}
+
+/* ================ABOUT================ */
+#about .about-box {
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #192655;
+}
+
+#about .row {
+    background-color: #192655;
+    border-radius: 20px;
+    border-color: #E3CCAE;
+    box-shadow: 0 0 100px rgba(244, 241, 158, 0.5);
+}
+
+#about .col-md-8 {
+    padding-bottom: 40px;
+    align-items: center;
+}
+
+#about h1 {
+    color: #C69749;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+#about p {
+    color: #E3CCAE;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#about button {
+    padding-right: 20px;
+    margin-right: 20px;
+}
+
+#about .custom-btn {
+    background-color: #B8621B;
+    margin-left: 20px;
+    border-radius: 30px;
+    color: #E3CCAE;
+    font-weight: 500;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* ====================PORTFOLIO=============== */
+#hanging-icons h2 {
+    color: #ffffff;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+}
+
+#portfolio .part1 {
+    color: #ffdcaf;
+    margin-bottom: 50px;
+}
+
+#portfolio h6 {
+    color: white;
+    padding-top: 10px;
+}
+
+#portfolio .col-md-3 {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.container-wrapper {
+    background: linear-gradient(180deg, #132345, #896738);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* =========================PORTFOLIO PART 2================= */
+#portfolio .text-porto {
+    color: white;
+    font-weight: bolder;
+}
+
+#portfolio .text-desc {
+    color: white;
+}
+
+#portfolio .card {
+    padding: 10px;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #132345, #896738);
+}
+
+#portfolio h3 {
+    color: rgb(172, 255, 252);
+    text-align: center;
+    margin-top: 15px;
+}
+
+#portfolio h6 {
+    color: rgb(222, 212, 74);
+    text-align: center;
+    margin-top: 10px;
+}
+
+#portfolio p {
+    color: #E3CCAE;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+#portfolio .card-img-top {
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+#portfolio .card {
+    margin-bottom: 10px;
+}
+
+.card-img-top {
+    object-fit: cover;
+    height: 100%;
+    width: auto;
+}
+
+/* ===============CONTACTS================ */
+
+#contacts .container1 {
+    margin-top: 120px;
+    background: linear-gradient(180deg, #000000, #192642, black);
+    padding: 150px;
+    color: #E3CCAE;
+}
+
+#contacts h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #E3CCAE;
+    margin-bottom: 20px;
+}
+
+#contacts p {
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+#contacts .btn {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #223549;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 15px rgba(255, 248, 125, 0.5);
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+#contacts .btn:hover {
+    background-color: #0056b3;
+    color: #fff;
+}
+
+#contacts .col-md-7 {
+    text-align: center;
+}
+
+/* ===================CONTACTS2=====================*/
+#contacts .container2 {
+    margin: 0 100px;
+}
+
+#contacts .container-fluid {
+    background-color: #4e1717;
+    padding: 20px;
+    margin: 5px 20px;
+}
+
+#contacts h2 {
+    color: #E3CCAE;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#contacts .form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contacts textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contacts .btn-primary {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #a47515;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#contacts .btn-primary:hover {
+    background-color: #0056b3;
+}
+
+#contacts .container-fluid {
+    background-color: #0b081b;
+    padding: 20px;
+    margin: 10px 0;
+    margin-top: 70px;
+    border-radius: 20px;
+    box-shadow: 0 0 70px rgba(255, 253, 206, 0.499);
+    margin-bottom: 200px;
+}
+
+/* ====================FOOTER================ */
+footer {
+    background-color: transparent;
+    color: white;
+}
+
+footer svg,
+footer img {
+    width: 24px;
+    height: 24px;
+}
+
+footer .nav {
+    margin: 0;
+}
+
+footer .nav li {
+    list-style: none;
+}
+
+footer .text-white {
+    color: white;
+}
+
+footer .text-body-secondary {
+    color: white;
+    text-align: left;
+}
